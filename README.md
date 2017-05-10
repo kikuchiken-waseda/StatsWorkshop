@@ -1,5 +1,21 @@
 # StatsWorkshop
 
+## Members
+
+- 菊池研究室
+  + 神長
+  + 清水
+  + 二又
+  + 森木
+- 太田研究室
+  + 福井
+  + 和田
+  + 桑野
+
+## Textbook
+
+- データ解析のための統計モデリング入門
+
 ## Schedule
 
 | date | Presenter | Slides               |Scripts                |
@@ -14,7 +30,6 @@
 |6/22  |Kikuch     |                      |                       |
 |6/29  |Ota        |                      |                       |
 |7/6   |Kikuch     |                      |                       |
-
 
 
 
