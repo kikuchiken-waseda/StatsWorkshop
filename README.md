@@ -32,6 +32,11 @@
 |7/6   |Kikuch     |                      |                       |
 
 
+## Contents
+| Chapter | Presenter |
+|:--------|-----------|
+|Chapter02|           |
+|Chapter03|           |
 
 [Chapter02 slides]: https://github.com/kikuchiken-waseda/StatsWorkshop/tree/master/Chapter02/slides
 [Chapter02 scripts]: https://github.com/kikuchiken-waseda/StatsWorkshop/tree/master/Chapter02/scripts
