@@ -40,14 +40,15 @@ p.id.c <- predict(fit.all.id, data.frame(x = x.range, f = fc ), type="response")
 
 plot(d$x, d$y, xlim = c(5, 20), ylim = c(5, 20), pch = c(1, 16)[d$f])
 
-# 対数リンク関数 & 肥料ありの予測値を 緑 で描画
+# 対数リンク関数 & 肥料ありの予測値を 赤 で描画
 lines(x.range, p.log.t, col = "red")
-# 対数リンク関数 & 肥料なしの予測値を 黄 で描画
+# 対数リンク関数 & 肥料なしの予測値を 青 で描画
 lines(x.range, p.log.c, col = "blue")
 
-# 恒等リンク関数 & 肥料ありの予測値を 桃 で描画
+# 恒等リンク関数 & 肥料ありの予測値を 緑 で描画
 lines(x.range, p.id.t, col = "green")
 # 恒等リンク関数 & 肥料なしの予測値を 紫 で描画
 lines(x.range, p.id.c, col = "purple")
+
 
 
