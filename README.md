@@ -33,6 +33,22 @@
 
 
 
+## Contents
+| Chapter | Presenter | Slides |
+|:--------|:----------|:-------|
+|Chapter02|           |        |
+|Chapter03|           |        |
+|Chapter04|           |        |
+|Chapter05|           |        |
+|Chapter06|           |        |
+|Chapter07|           |        |
+|Chapter08|           |        |
+|Chapter09|           |        |
+|Chapter10|           |        |
+|Chapter11|           |        |
+
+
+
 [Chapter02 slides]: https://github.com/kikuchiken-waseda/StatsWorkshop/tree/master/Chapter02/slides
 [Chapter02 scripts]: https://github.com/kikuchiken-waseda/StatsWorkshop/tree/master/Chapter02/scripts
 [Chapter03 slides]: https://github.com/kikuchiken-waseda/StatsWorkshop/tree/master/Chapter03/slides

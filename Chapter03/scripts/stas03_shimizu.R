@@ -1,8 +1,11 @@
-setwd("~/Downloads")
+setwd("~/Desktop/StatsWorkshop/Chapter03/scripts")
 d <- read.csv("data3a.csv")
 
-# 肥料なしを赤、肥料ありを青でプロット
-plot(d$x, d$y, col = c("red", "blue")[d$f])
+# サイズの分布
+hist(d$x)
+
+# 肥料なしを白、肥料ありを黒でプロット
+plot(d$x, d$y, pch = c(1, 16)[d$f])
 
 # モデル作成
 fit.all <- glm(y ~ x + f, data = d, family = poisson)
@@ -12,6 +15,7 @@ logLik(fit.all)
 
 
 # 下記のようにリンク関数を明記すれば別のリンク関数も使用できる
+# identityは恒等リンク関数（= リンク関数を用いない）
 fit.all.id <- glm(y ~ x + f, data = d, family = poisson(link = identity))
 fit.all.id
 
@@ -25,24 +29,25 @@ x.range
 ft <- factor("T", levels = levels(d$f))
 fc <- factor("C", levels = levels(d$f))
 
-# 未知のxに対する予測（リンク関数がlogの場合）
+# 未知のxに対する予測（対数リンク関数の場合）
 p.log.t <- predict(fit.all, data.frame(x = x.range, f = ft ), type="response")
 p.log.t
 p.log.c <- predict(fit.all, data.frame(x = x.range, f = fc ), type="response")
 
-# 未知のxに対する予測（リンク関数がidentityの場合）
+# 未知のxに対する予測（恒等リンク関数の場合）
 p.id.t <- predict(fit.all.id, data.frame(x = x.range, f = ft ), type="response")
 p.id.c <- predict(fit.all.id, data.frame(x = x.range, f = fc ), type="response")
 
-plot(d$x, d$y, xlim = c(5, 20), ylim = c(5, 20), col = c("red", "blue")[d$f])
+plot(d$x, d$y, xlim = c(5, 20), ylim = c(5, 20), pch = c(1, 16)[d$f])
 
 # 対数リンク関数 & 肥料ありの予測値を 緑 で描画
-lines(x.range, p.log.t, col = "green")
+lines(x.range, p.log.t, col = "red")
 # 対数リンク関数 & 肥料なしの予測値を 黄 で描画
-lines(x.range, p.log.c, col = "gray")
+lines(x.range, p.log.c, col = "blue")
 
 # 恒等リンク関数 & 肥料ありの予測値を 桃 で描画
-lines(x.range, p.id.t, col = "pink")
+lines(x.range, p.id.t, col = "green")
 # 恒等リンク関数 & 肥料なしの予測値を 紫 で描画
 lines(x.range, p.id.c, col = "purple")
+
 
