@@ -22,7 +22,7 @@
 | date | Presenter | Slides               |Scripts                | data               |
 |:-----|:----------|:---------------------|:----------------------|:-------------------|
 |4/27  |Ota        | [Chapter02 slides][] | [Chapter02 scripts][] | [Chapter02 data][] |
-|5/11  |Kikuchi    | [Chapter03 slides][] | [Chapter03 scripts][] | [Chapter02 data][] |
+|5/11  |Kikuchi    | [Chapter03 slides][] | [Chapter03 scripts][] | [Chapter03 data][] |
 |5/18  |Ota        |                      |                       |                    | 
 |5/25  |Kikuchi    |                      |                       |                    |
 |6/1   |Ota        |                      |                       |                    |
