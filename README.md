@@ -23,7 +23,7 @@
 |:-----|:----------|:---------------------|:----------------------|:-------------------|
 |4/27  |Ota        | [Chapter02 slides][] | [Chapter02 scripts][] | [Chapter02 data][] |
 |5/11  |Kikuchi    | [Chapter03 slides][] | [Chapter03 scripts][] | [Chapter03 data][] |
-|5/18  |Ota        |                      |                       |                    | 
+|5/18  |Ota        | [Chapter04 slides][] | [Chapter04 scripts][] | [Chapter04 data][] | 
 |5/25  |Kikuchi    |                      |                       |                    |
 |6/1   |Ota        |                      |                       |                    |
 |6/8   |Kikuchi    |                      |                       |                    |
@@ -37,7 +37,7 @@
 
 ### Git & Githubの使い方
 
-- [サルでもわかるGit入門](http://www.backlog.jp/git-guide/):すごくわかりやすい
+- [サルでもわかるGit入門](http://www.backlog.jp/git-guide/): すごくわかりやすい
 
 ### Chapter02
 
