@@ -19,39 +19,27 @@
 
 ## Schedule
 
-| date | Presenter | Slides               |Scripts                |
-|:-----|:----------|:---------------------|:----------------------|
-|4/27  |Ota        | [Chapter02 slides][] | [Chapter02 scripts][] |
-|5/11  |Kikuchi    | [Chapter03 slides][] | [Chapter03 scripts][] |
-|5/18  |Ota        |                      |                       |
-|5/25  |Kikuchi    |                      |                       |
-|6/1   |Ota        |                      |                       |
-|6/8   |Kikuchi    |                      |                       |
-|6/15  |Ota        |                      |                       |
-|6/22  |Kikuch     |                      |                       |
-|6/29  |Ota        |                      |                       |
-|7/6   |Kikuch     |                      |                       |
+| date | Presenter | Slides               |Scripts                | data               |
+|:-----|:----------|:---------------------|:----------------------|:-------------------|
+|4/27  |Ota        | [Chapter02 slides][] | [Chapter02 scripts][] | [Chapter02 data][] |
+|5/11  |Kikuchi    | [Chapter03 slides][] | [Chapter03 scripts][] | [Chapter02 data][] |
+|5/18  |Ota        |                      |                       |                    | 
+|5/25  |Kikuchi    |                      |                       |                    |
+|6/1   |Ota        |                      |                       |                    |
+|6/8   |Kikuchi    |                      |                       |                    |
+|6/15  |Ota        |                      |                       |                    |
+|6/22  |Kikuch     |                      |                       |                    |
+|6/29  |Ota        |                      |                       |                    |
+|7/6   |Kikuch     |                      |                       |                    |
 
 
-
-## Contents
-
-| Chapter | Presenter                     | Data | Slides |
-|:--------|:------------------------------|:-----|:-------|
-|Chapter02| Wada<br>Kuwano                |      |        |
-|Chapter03| Takada<br>Futamata<br>Shimizu |      |        |
-|Chapter04| Wada<br>Kuwano                |      |        |
-|Chapter05|                               |      |        |
-|Chapter06|                               |      |        |
-|Chapter07|                               |      |        |
-|Chapter08|                               |      |        |
-|Chapter09|                               |      |        |
-|Chapter10|                               |      |        |
-|Chapter11|                               |      |        |
+# References
 
 
 
 [Chapter02 slides]: https://github.com/kikuchiken-waseda/StatsWorkshop/tree/master/Chapter02/slides
 [Chapter02 scripts]: https://github.com/kikuchiken-waseda/StatsWorkshop/tree/master/Chapter02/scripts
+[Chapter02 data]: https://github.com/kikuchiken-waseda/StatsWorkshop/blob/master/Chapter02/data/data.RData
 [Chapter03 slides]: https://github.com/kikuchiken-waseda/StatsWorkshop/tree/master/Chapter03/slides
 [Chapter03 scripts]: https://github.com/kikuchiken-waseda/StatsWorkshop/tree/master/Chapter03/scripts
+[Chapter03 data]:://github.com/kikuchiken-waseda/StatsWorkshop/blob/master/Chapter03/data/data3a.csv
