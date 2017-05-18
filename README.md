@@ -42,10 +42,11 @@
 
 ### Chapter03
 
+### Chapter04
 
 [Chapter02 slides]: https://github.com/kikuchiken-waseda/StatsWorkshop/tree/master/Chapter02/slides
 [Chapter02 scripts]: https://github.com/kikuchiken-waseda/StatsWorkshop/tree/master/Chapter02/scripts
 [Chapter02 data]: https://github.com/kikuchiken-waseda/StatsWorkshop/blob/master/Chapter02/data/data.RData
 [Chapter03 slides]: https://github.com/kikuchiken-waseda/StatsWorkshop/tree/master/Chapter03/slides
 [Chapter03 scripts]: https://github.com/kikuchiken-waseda/StatsWorkshop/tree/master/Chapter03/scripts
-[Chapter03 data]:://github.com/kikuchiken-waseda/StatsWorkshop/blob/master/Chapter03/data/data3a.csv
+[Chapter03 data]: https://github.com/kikuchiken-waseda/StatsWorkshop/blob/master/Chapter03/data/data3a.csv
