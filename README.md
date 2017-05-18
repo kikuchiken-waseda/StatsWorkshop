@@ -35,17 +35,12 @@
 
 ## References
 
-| Chapter   | Link | Description |
-|:----------|:-----|:------------|
-| Chapter01 |      |             |
-| Chapter02 |      |             |
-| Chapter03 |      |             |
-| Chapter04 |      |             |
-| Chapter05 |      |             |
-| Chapter06 |      |             |
-| Chapter07 |      |             |
-| Chapter08 |      |             |
+### Chapter02
 
+- [RPlus](http://rpubs.com/kaz_yos/kubobook2): Chapter02のコード、図の出力
+- [Link](http://imaimamu.com/archives/1875): Chapter02bのコード、図の出力をpythonで再現
+
+### Chapter03
 
 
 [Chapter02 slides]: https://github.com/kikuchiken-waseda/StatsWorkshop/tree/master/Chapter02/slides
