@@ -15,6 +15,7 @@
 ## Textbook
 
 - データ解析のための統計モデリング入門
+  + [Official Page](http://hosho.ees.hokudai.ac.jp/~kubo/ce/IwanamiBook.html)
 
 ## Schedule
 
@@ -35,18 +36,18 @@
 
 ## Contents
 
-| Chapter | Presenter | Data | Slides |
-|:--------|:----------|:-----|:-------|
-|Chapter02|           |      |        |
-|Chapter03|           |      |        |
-|Chapter04|           |      |        |
-|Chapter05|           |      |        |
-|Chapter06|           |      |        |
-|Chapter07|           |      |        |
-|Chapter08|           |      |        |
-|Chapter09|           |      |        |
-|Chapter10|           |      |        |
-|Chapter11|           |      |        |
+| Chapter | Presenter                     | Data | Slides |
+|:--------|:------------------------------|:-----|:-------|
+|Chapter02| Wada<br>Kuwano                |      |        |
+|Chapter03| Takada<br>Futamata<br>Shimizu |      |        |
+|Chapter04| Wada<br>Kuwano                |      |        |
+|Chapter05|                               |      |        |
+|Chapter06|                               |      |        |
+|Chapter07|                               |      |        |
+|Chapter08|                               |      |        |
+|Chapter09|                               |      |        |
+|Chapter10|                               |      |        |
+|Chapter11|                               |      |        |
 
 
 
