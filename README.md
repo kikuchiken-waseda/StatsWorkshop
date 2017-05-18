@@ -35,6 +35,10 @@
 
 ## References
 
+### Git & Githubの使い方
+
+- [サルでもわかるGit入門](http://www.backlog.jp/git-guide/):すごくわかりやすい
+
 ### Chapter02
 
 - [RPlus](http://rpubs.com/kaz_yos/kubobook2): Chapter02のコード、図の出力
