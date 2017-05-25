@@ -54,3 +54,6 @@
 [Chapter03 slides]: https://github.com/kikuchiken-waseda/StatsWorkshop/tree/master/Chapter03/slides
 [Chapter03 scripts]: https://github.com/kikuchiken-waseda/StatsWorkshop/tree/master/Chapter03/scripts
 [Chapter03 data]: https://github.com/kikuchiken-waseda/StatsWorkshop/blob/master/Chapter03/data/data3a.csv
+[Chapter04 slides]: https://github.com/kikuchiken-waseda/StatsWorkshop/tree/master/Chapter04/slides
+[Chapter04 scripts]: https://github.com/kikuchiken-waseda/StatsWorkshop/tree/master/Chapter04/scrips
+[Chapter04 data]: https://github.com/kikuchiken-waseda/StatsWorkshop/tree/master/Chapter04/data
