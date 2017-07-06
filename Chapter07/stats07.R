@@ -51,16 +51,20 @@ lines(xx, max(d$N) * calcProb(xx, coef.glmm, 0))
 
 anal.glm <- glm(data = d, cbind(y, N - y) ~ x, family = "binomial")
 
+summary(anal.glm)
+
 coef.glm = anal.glm$coefficients
 
 lines(xx, max(d$N) * calcProb(xx, coef.glm, 0)) # 真のモデルとは異なる
 
-## 
+### なぜこのようなことが起きるのか？ ###
+
+### 生存種子数ごとの個体数の分布 ###
 
 N = 8
 y <- 0:N
 
-plot(y, table(d[d$x == 4,]$y), xlab="生存種子数", ylab="個体数") # 二項分布ではない
+plot(y, table(d[d$x == 4,]$y), xlab="生存種子数", ylab="個体数") # 二項分布ではなさそう
 
 # スライドに戻る
 
