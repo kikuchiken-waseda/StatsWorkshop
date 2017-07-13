@@ -1,6 +1,6 @@
 # localのデータを使用（自分用）
-#setwd("~/Desktop/StatsWorkshop/Chapter07")
-#d <- read.csv("data.csv")
+setwd("~/Desktop/StatsWorkshop/Chapter07")
+d <- read.csv("data.csv")
 
 # Web上のデータをダウンロードして使用
 d <- read.csv("http://hosho.ees.hokudai.ac.jp/~kubo/stat/iwanamibook/fig/glmm/data.csv",
@@ -68,7 +68,12 @@ plot(y, table(d[d$x == 4,]$y), xlab="生存種子数", ylab="個体数") # 二�
 
 # スライドに戻る
 
+# 7月14日ここから
 
+### Rを使ってGLMMのパラメータを推定 ###
 
+glmmML(cbind(y,N-y) ~ x, data = d, family = binomial, cluster = id)
+
+args(glmmML)
 
 
